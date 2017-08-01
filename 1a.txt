@@ -1,3 +1,6 @@
+From http://www.r-tutor.com/elementary-statistics/goodness-fit/chi-squared-test-independence
+
+
 > tbl
    
       0   1
