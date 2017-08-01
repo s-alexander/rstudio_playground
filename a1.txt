@@ -1,0 +1,19 @@
+> tbl
+   
+      0   1
+  0 178 150
+  1  32  60
+> rm(tbl)
+> rm(tbl_smk)
+> tbl = table(mi$mi, mi$smoking)
+> tbl
+   
+      0   1
+  0 178  32
+  1 150  60
+> chisq.test(tbl)
+
+	Pearson's Chi-squared test with Yates' continuity correction
+
+data:  tbl
+X-squared = 10.146, df = 1, p-value = 0.001446
